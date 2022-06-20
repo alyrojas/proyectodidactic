@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro.component.css">
+
+    <title>Document</title>
+</head>
+<body>                                                
+                                <section class = "form-register">
+                                    <h2>Crear Cuenta</h2>  
+                                    <select class=controls  name="Tipo de usuario" style="width: 170px; height: 28px;">
+                                        <option value="opcion" selected>Seleccione Opción</option>
+                                        <option value="administrador">Administrador</option>
+                                        <option value="profesor">Porfesor(a)</option>
+                                        <option value="estudiante">Estudiante</option>
+                                      </select>
+                                     <input class=controls type="text" style="width: 180px; height: 28px;" id="control" placeholder="Numero de Control" class="form-control">
+                                    <br>
+                                     <input class=controls type="text" style="width: 175px; height: 28px;" id="name" placeholder="Nombre(s)" class="form-control">
+                                     <input class=controls type="text" style="width: 175px; height: 28px;" id="lastname" placeholder="Apellido(s)" class="form-control">
+                                     <br>
+                                     <input class=controls type="text" style="width: 125px; height: 28px;" id="nameusr" placeholder="Nombre de usuario" class="form-control">
+                                     <input class=controls type="email" style="width: 225px; height: 28px;" id="email" placeholder="E-mail" class="form-control">
+                                    <br>
+                                     <input class=controls type="tel" style="width: 190px; height: 28px;" id="phone" placeholder="Teléfono" class="form-control">
+                                        <input class=controls type="datetime" style="width: 160px; height: 28px;" id="dateb" placeholder="Fecha de nacimiento" class="form-control">
+                                       <br>
+                                    
+                                    
+                                     <input class=controls type="password" style="width: 175px; height: 28px;" id="contraseña" placeholder="Contraseña" class="form-control">
+                                     <input class=controls type="password" style="width: 175px; height: 28px;" id="confi-contraseña" placeholder="Confirmar contraseña" class="form-control">
+                                     <br>  
+                                     <button class="btn" btn-block style="width: 100px; height: 28px;">
+                                         Crear cuenta
+                                        </button>
+                                    <a href="/src/app/components/login/login.component.html"><p>¿Ya tienes una cuenta?  </p></a> 
+                                      
+                                       
+                                   
+                            </section>                       
+                             
+</body>
+</html>
+
+

@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background:rgb(0, 119, 255);
+}
+   
+
+.form-login{
+    width: 400px;
+    height: 390px;
+    background: white;
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px 30px;
+    border-radius: 4px;
+    
+}
+
+.form-login h2{
+   margin: 0;
+   text-align: center;
+   font-family: Arial,sans-serif;
+   height: 40px;
+   margin-bottom: 30px;
+   font-size: 25px;
+   background: white;
+    
+}
+.controls{
+    
+    border-radius: 6px;
+    border: 1px solid black;
+   background: white;
+    font-size: 15px;
+    margin-top: -2px;
+    padding: 5px;
+    
+}
+.btn{
+    background: rgb(0, 119, 255);
+    margin: auto;
+
+    text-align:center;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 7px;
+    display: block;
+}
+
+.form-login p{
+    margin-bottom: 11px;
+    text-align: center;
+    background:white ;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+.form-login a{
+    margin-bottom: 15px;
+    text-align: center;
+    background:white ;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+.img {
+    background: white;
+   margin: auto;
+   display: block;
+}
+.login-t{
+   margin-top: -12px;
+margin-bottom: -12px;
+    margin-inline-start: 1px;
+    background: white;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold ;
+
+}
+.icon2{
+    margin-left: 6px;
+    font-size: 12px;
+    margin-bottom: -4px;
+}

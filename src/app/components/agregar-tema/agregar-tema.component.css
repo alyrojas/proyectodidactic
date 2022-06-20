@@ -1,0 +1,19 @@
+nav{
+    background: #4caf50;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #4caf50;
+    color: white;
+}
+#seccion_header{
+    background-color: #4CAF50;
+    width: auto;
+    height: 40px;
+}
+h4{
+    color: white;
+    padding: 10px;
+}

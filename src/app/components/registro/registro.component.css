@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    background: #0091ff;
+    
+  
+}
+.form-register h2{
+    font-family:'Arial', 'sans-serif';
+    padding: 5px;
+    text-align: center;
+    color: black;
+    background: white;
+    margin-inline: 10px;
+   
+}
+.form-register{
+    width: 680px; 
+    height: 355px;
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    border: 100px black;
+    font-family: Verdana, sans-serif;
+    margin-bottom: 50px;
+    background:white;
+    padding: 25px;
+    text-align: center;
+}
+
+.controls{
+    margin-top: 10px;
+    background: white;
+    padding: 5px;
+    width: 50%;
+    border-radius: 6px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    
+}
+.btn{
+    
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.form-register p{
+    font-size: 15px;
+    background: white;
+    margin-top: 18px;
+    font-family:'Arial', sans-serif;
+    text-align: center;
+}
